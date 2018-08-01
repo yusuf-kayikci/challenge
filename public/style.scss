@@ -1,0 +1,151 @@
+body{
+    background-color:#e8ebf3;
+}
+
+.context{
+    margin-top:100px;
+    margin-left: 50px;
+    margin-right:50px;
+
+    
+}
+
+
+.query{
+    float: right;
+    margin-bottom: 15px;
+}
+.query .box{
+    float: right;
+    padding: 5px 8px;
+}
+.query .searchbutton{
+    background-color: #8ec03f; /* Avacado */
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.divTable{
+    display: table;
+    margin-top:15px;
+    background-color:#fff;
+	width: 100%;
+}
+
+
+.divTableMaster {
+    display: table-row;
+}
+.divTableDetail {
+    display:none;
+}
+.divTableHeading {
+	background-color: #fff;
+    display: table-header-group;
+}
+.divTableCell {
+    display: table-cell;
+    padding: 25px 15px;
+    font-family: 'SourceSnasPro Regular';
+    font-size: 14px;
+    border-top: 1px solid #e8ebf3;
+}
+
+.divTableHead{
+    color:#213d8f;
+    display: table-cell;
+    padding: 25px 15px;
+    position: static;
+    font-weight:bold;
+    font-family: 'SourceSnasPro Semibold';
+    font-size: 14px;
+
+}
+.divTableBody {
+	display: table-row-group;
+}
+.subTable{
+    float : left;
+    left: 10%;
+    width: 100%;
+    display:table;
+    font-family: 'SourceSnasPro Regular';
+}
+.subTable .row{
+    display:table-row;
+    line-height: 25px;
+}
+.subTable .row .cell{
+    position: relative;
+    display:table-cell;
+    float: left;
+    margin-right: 5%;
+}
+.subTable .row .cell .header{
+    color:#213d8f;
+    display: table-cell;
+    padding: 15px 10px;
+    font-family: 'SourceSnasPro Regular';
+    font-size: 16px;
+}
+.subTable .row .cell .detail{
+    display: table-cell;
+    padding: 25px 10px;
+    font-family: 'SourceSnasPro Regular';
+    font-size: 16px;
+}
+.alignRight{
+    text-align: right;
+}
+
+
+
+/*CLASSES FOR CLICK EVENT */
+.haveDetail{
+    background-color: #f6f7fb;
+    color: #4a4a4a;
+    position: static;
+}
+.noHaveDetail{
+    background-color: #fff;
+    font-family: 'SourceSnasPro Semibold';
+}
+
+.noVisibleDetail{
+    display: none;
+}
+.visibleDetail{
+    display: table-row;
+    background-color: #f6f7fb;
+}
+/**/
+
+select{
+    color:#213d8f;
+    padding: 25px 15px;
+    height: 38px;
+    font-weight: bold;
+    font-family: 'SourceSnasPro Semibold';
+    font-size: 14px;
+    border:1px solid #213d8f;
+}
+
+option{
+    font-size: 14px;
+    font-family: 'SourceSnasPro Regular';
+    padding: 25px 15px;
+    font-weight: bold;
+    color:#909ec7;
+
+}
+
+select.decorated option:hover {
+    box-shadow: 0 0 10px 100px #1882A8 inset;
+}
+
+

@@ -83,8 +83,7 @@ body{
 .subTable .row .cell{
     position: relative;
     display:table-cell;
-    float: left;
-    margin-right: 5%;
+    padding-left: 5%;
 }
 .subTable .row .cell .header{
     color:#213d8f;
@@ -117,6 +116,7 @@ body{
 }
 
 .noVisibleDetail{
+    text-align: center;
     display: none;
 }
 .visibleDetail{
